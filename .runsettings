@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
   <NUnit>
-    <NumberOfTestWorkers value="#{parallelismLevel}#"/>
+    <NumberOfTestWorkers>1</NumberOfTestWorkers>
   </NUnit>
 </RunSettings>
