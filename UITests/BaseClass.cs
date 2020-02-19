@@ -5,6 +5,6 @@ namespace UITests
 {
     public class BaseClass
     {
-        public  IWebDriver Driver { get; set; }
+        public static IWebDriver Driver { get; set; }
     }
 }

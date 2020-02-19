@@ -6,7 +6,7 @@ using static UITests.MoreInfoForm;
 namespace UITests
 {
     [TestFixture]
-    [Parallelizable(ParallelScope.Children)]
+    [Parallelizable]
     public class FirefoxTests : Hooks
     {
         public FirefoxTests() : base(BrowserType.Firefox){}
